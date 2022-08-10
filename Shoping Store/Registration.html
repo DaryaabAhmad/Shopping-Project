@@ -12,49 +12,102 @@
     <h1>Register Your Self Here</h1>
 
     <form action="./Shopping Store.html" enctype="text/plain">
-        <h3><em>Login Information</em></h3>
-        <label>Username</label>
-        <input required placeholder="Full Name" maxlength="16" type="text">
-        <br>
-        <label>Email</label>
-        <input required placeholder="info@gmail.com" type="email">
-        <br>
-        <label>Password</label>
-        <input required type="password">
-        <br><br><br>
+        <fieldset>
+            <fieldset>
+                <legend>
+                    <h3><em>Login Information</em></h3>
+                </legend>
 
-        <h3><em>Personal Information</em></h3>
 
-        <label>Name</label>
-        <input required placeholder="Full Name" type="text">
-        <br>
-        <label>Male</label>
-        <input name="1" type="radio">
-        <br>
-        <label>Female</label>
-        <input name="1" type="radio">
-        <br>
-        <label>City</label>
-        <input required type="text">
-        <br>
-        <label> Complete Address </label> <br>
-        <textarea required cols="20" rows="5" placeholder="Your Current Address"></textarea>
-        <br>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td> <label for="name">Username</label></td>
+                            <td><input type="box"></td>
+                        </tr>
+                        <tr>
+                            <td> <label for="mailto">Your Email</label></td>
+                            <td> <input required type="email" type="box"></td>
+                        </tr>
+                        <tr>
+                            <td> <label for="">Password</label></td>
+                            <td> <input type="Password"> </td>
+                        </tr>
 
-        <h3><em>Shipping Information</em></h3>
+                    </tbody>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    <h3><em>Personal Information</em></h3>
+                </legend>
+                <table>
+                    <tbody>
 
-        <label for="">Address</label>
-        <br>
-        <textarea required cols="20" rows="5" placeholder="Your Order will be Delivered on that Address."></textarea>
-        <br>
-        <label for="">City</label>
-        <input type="text">
-        <br>
-        <label for="">Postal Code</label>
-        <input type="text">
-        <br>
-        <input value="Submit" type="submit">
-    </form> <br>
+                        <tr>
+                            <td> <label>Name</label></td>
+                            <td> <input required placeholder="Full Name" type="text"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="">Gander:</label></td>
+                            <td> <label>Male</label>
+                                <input name="1" type="radio">
+
+
+                                <label>Female</label>
+                                <input name="1" type="radio">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>City</label></td>
+                            <td><input required type="text"></td>
+                        </tr>
+                        <tr>
+                            <td> <label> Complete Address </label></td>
+                            <td> <textarea required cols="20" rows="5" placeholder="Your Current Address"></textarea>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+            </fieldset>
+            <fieldset>
+                <table>
+                    <tbody>
+
+                        <legend>
+                            <h3><em>Shipping Information</em></h3>
+                        </legend>
+                        <tr>
+
+                            <td><label for="">Address</label></td>
+                            <td> <textarea required cols="20" rows="5"
+                                    placeholder="Your Order will be Delivered on that Address."></textarea></td>
+                        </tr>
+                        <tr>
+                            <td> <label for="">City</label></td>
+                            <td> <input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td> <label for="">Postal Code</label></td>
+                            <td> <input type="text"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+            <br>
+            <input value="Submit" type="submit">
+            <br>
+        </fieldset>
+    </form>
+
+
+
+
+
+    <br>
     <a href="./Login.html"> Login here</a><br><br>
     <a href="./Shopping Store.html"> Back to Home Page </a>
 </body>
